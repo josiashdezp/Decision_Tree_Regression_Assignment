@@ -97,6 +97,13 @@ print('Missing values in products after Imputation: ',products['DemClusterGroup'
 products_sorted = products.sort_values(by=['PromSpend'], ascending=False)
 products = products_sorted.iloc[3:]
 
+#Replace of the spaces in the text values like in the DemReg and DemTVReg
+products.loc[:,'DemTVReg'] = products['DemTVReg'].str.replace(' & ', '', regex=False)
+products.loc[:,'DemReg'] = products['DemReg'].str.replace(' & ', '', regex=False)
+products.loc[:,'DemTVReg'] = products['DemTVReg'].str.replace('  ', ' ', regex=False)
+products.loc[:,'DemReg'] = products['DemReg'].str.replace('  ', ' ', regex=False)
+products.loc[:,'DemReg'] = products['DemReg'].str.replace(' ', '_', regex=False)
+products.loc[:,'DemTVReg'] = products['DemTVReg'].str.replace(' ', '_', regex=False)
 
 #region Plotting again to check the changes in the distribution of the columns after cleaning and imputation
 # sns.displot(products["PromSpend"], kde='True',bins=50,height=6)
@@ -156,10 +163,11 @@ print("Dimensions of Test Datasets",x_test.shape, y_test.shape)
 #region 3. DATA MODELING
 
 #region Run first DECISION TREE, Full Variable Model (Unpruned Decision Tree)
-# regressor = tr.DecisionTreeRegressor(random_state=42)
-# regressor.fit(x_train, y_train) # Train the model on the training data
-# y_pred_test1 = regressor.predict(x_test) # Make predictions on the testing data
-# y_pred_val1 = regressor.predict(x_val) # Make predictions on the validation data
+regressor = tr.DecisionTreeRegressor(random_state=42)
+regressor.fit(x_train, y_train) # Train the model on the training data
+y_pred_test1 = regressor.predict(x_test) # Make predictions on the testing data
+y_pred_val1 = regressor.predict(x_val) # Make predictions on the validation data
+
 # Plot the decision tree
 # plt.figure(figsize=(12, 8))  # Adjust figure size as needed
 # tr.plot_tree(regressor, feature_names=x.columns, filled=True)
@@ -169,24 +177,23 @@ print("Dimensions of Test Datasets",x_test.shape, y_test.shape)
 #region Run second DECISION TREE, Manually Adjusted Decision Tree (Pruned with Business Insights)
 parameters = {
     'criterion': ["squared_error", "friedman_mse", "absolute_error", "poisson"],
-    'splitter' : ['best', 'random'],
+    'splitter' : ["best", "random"],
     'min_samples_split' : [2, 5, 10], # It is a percentage
     'max_depth':[1,2,3,4,5],
-    'max_features' : ['int','float','sqrt','log2']
+    'max_features' : ['sqrt','log2']
 }
+
 regressor1 = tr.DecisionTreeRegressor()
-cv = ms.GridSearchCV(regressor1,param_grid=parameters)
-cv.fit(x_train, y_train) # Train the model on the training data
+cv = ms.GridSearchCV(regressor1,param_grid=parameters, cv=5)
+cv.fit(x_train, y_train, ) # Train the model on the training data
 print(cv.best_params_)
 print(cv.best_estimator_)
 score_test2 = cv.score(x_test, y_test)
+print(score_test2)
 
-# y_pred_test2 = regressor.predict(x_test) # Make predictions on the testing data
-# y_pred_val2 = regressor.predict(x_val) # Make predictions on the validation data
-# Plot the decision tree
-# plt.figure(figsize=(12, 8))  # Adjust figure size as needed
-# tr.plot_tree(regressor, feature_names=x.columns, filled=True)
-# plt.show()
+y_pred_test2 = regressor.predict(x_test) # Make predictions on the testing data
+y_pred_val2 = regressor.predict(x_val) # Make predictions on the validation data
+
 #endregion
 
 # Create a DecisionTreeRegressor object with pruning
@@ -215,4 +222,3 @@ score_test2 = cv.score(x_test, y_test)
 #endregion
 
 #endregion
-

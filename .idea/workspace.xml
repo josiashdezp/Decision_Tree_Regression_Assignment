@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2fa53ec-1052-4993-9daa-4901bcb3ca88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/W2 Kritik.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documents/KritikAssignment2TopicADecsionTree.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documents/Organics_Score.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documents/organics_updated.jmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documents/~$itikAssignment2TopicADecsionTree.docx" afterDir="false" />
+    <list default="true" id="c2fa53ec-1052-4993-9daa-4901bcb3ca88" name="Changes" comment="This is a Predictive Analytics Assignment to conduct a decision tree analysis on the Organics dataset.The goal is to predict TargetAmount, which represents the amount customers spent on organic products. Use the CRISP-DM fram  ework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment) throughout your analysis. This analysis will help the company identify key drivers of customer spending and optimize promotional strategies for increased sales. &#10;For more details read Documents/KritikAssignment2TopicADecsionTree.docx">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Predictive_BA_Report2_JHP.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Predictive_BA_Report2_JHP.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/josiashdezp/Decision_Tree_Regression_Assignment.git",
+    "accountId": "1736d0b4-1a6c-4a9e-b7b3-84329e7b7b60"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -97,12 +97,36 @@
       <updated>1738395918711</updated>
       <workItem from="1738395919848" duration="27245000" />
       <workItem from="1738720793676" duration="97000" />
-      <workItem from="1738993565241" duration="37763000" />
+      <workItem from="1738993565241" duration="44519000" />
     </task>
+    <task id="LOCAL-00001" summary="This is a Predictive Analytics Assignment to conduct a decision tree analysis on the Organics dataset.The goal is to predict TargetAmount, which represents the amount customers spent on organic products. Use the CRISP-DM fram  ework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment) throughout your analysis. This analysis will help the company identify key drivers of customer spending and optimize promotional strategies for increased sales. &#10;For more details read Documents/KritikAssignment2TopicADecsionTree.docx">
+      <option name="closed" value="true" />
+      <created>1739076932189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739076932189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is a Predictive Analytics Assignment to conduct a decision tree analysis on the Organics dataset.The goal is to predict TargetAmount, which represents the amount customers spent on organic products. Use the CRISP-DM fram  ework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment) throughout your analysis. This analysis will help the company identify key drivers of customer spending and optimize promotional strategies for increased sales. &#10;For more details read Documents/KritikAssignment2TopicADecsionTree.docx" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is a Predictive Analytics Assignment to conduct a decision tree analysis on the Organics dataset.The goal is to predict TargetAmount, which represents the amount customers spent on organic products. Use the CRISP-DM fram  ework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment) throughout your analysis. This analysis will help the company identify key drivers of customer spending and optimize promotional strategies for increased sales. &#10;For more details read Documents/KritikAssignment2TopicADecsionTree.docx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -116,6 +140,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/W2_Kritik$main.coverage" NAME="main Coverage Results" MODIFIED="1739076534827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/W2_Kritik$main.coverage" NAME="main Coverage Results" MODIFIED="1739081655423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
