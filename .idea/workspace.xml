@@ -7,6 +7,7 @@
     <list default="true" id="c2fa53ec-1052-4993-9daa-4901bcb3ca88" name="Changes" comment="This is a Predictive Analytics Assignment to conduct a decision tree analysis on the Organics dataset.The goal is to predict TargetAmount, which represents the amount customers spent on organic products. Use the CRISP-DM fram  ework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment) throughout your analysis. This analysis will help the company identify key drivers of customer spending and optimize promotional strategies for increased sales. &#10;For more details read Documents/KritikAssignment2TopicADecsionTree.docx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Documents/Predictive_BA_Report2_JHP.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Predictive_BA_Report2_JHP.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/~$itikAssignment2TopicADecsionTree.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/josiashdezp/Decision_Tree_Regression_Assignment.git",
-    "accountId": "1736d0b4-1a6c-4a9e-b7b3-84329e7b7b60"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;josiashdezp&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/josiashdezp/Decision_Tree_Regression_Assignment.git&quot;,
+    &quot;accountId&quot;: &quot;1736d0b4-1a6c-4a9e-b7b3-84329e7b7b60&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -32,23 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "J:/My Drive/0. Doble Titulación/8. Academic/BAN 5743 Predictive Business Analytics/W1 Kritik/Solution1.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Run.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;J:/My Drive/0. Doble Titulación/8. Academic/BAN 5743 Predictive Business Analytics/W1 Kritik/Solution1.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="W2 Kritik" />
@@ -97,7 +105,7 @@
       <updated>1738395918711</updated>
       <workItem from="1738395919848" duration="27245000" />
       <workItem from="1738720793676" duration="97000" />
-      <workItem from="1738993565241" duration="44519000" />
+      <workItem from="1738993565241" duration="97664000" />
     </task>
     <task id="LOCAL-00001" summary="This is a Predictive Analytics Assignment to conduct a decision tree analysis on the Organics dataset.The goal is to predict TargetAmount, which represents the amount customers spent on organic products. Use the CRISP-DM fram  ework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment) throughout your analysis. This analysis will help the company identify key drivers of customer spending and optimize promotional strategies for increased sales. &#10;For more details read Documents/KritikAssignment2TopicADecsionTree.docx">
       <option name="closed" value="true" />
@@ -107,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739076932189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="This is a Predictive Analytics Assignment to conduct a decision tree analysis on the Organics dataset.The goal is to predict TargetAmount, which represents the amount customers spent on organic products. Use the CRISP-DM fram  ework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment) throughout your analysis. This analysis will help the company identify key drivers of customer spending and optimize promotional strategies for increased sales. &#10;For more details read Documents/KritikAssignment2TopicADecsionTree.docx">
+      <option name="closed" value="true" />
+      <created>1739083730384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739083730384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +156,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/W2_Kritik$main.coverage" NAME="main Coverage Results" MODIFIED="1739081655423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/W2_Kritik$main.coverage" NAME="main Coverage Results" MODIFIED="1739171967883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
